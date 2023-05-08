@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root{
+    --red: #E15252;
+    --dark-gray:#333333;
+    --light-gray:#F2F2F2;
+    --text-gray:#4F4F4F;
+    --footer-gray:#C4C4C4;
+    --font:a;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 3310px;
+    width: 1903px;
+}
+header{
+    width: 1903px;
+    height: 840px;
+    background-image:;
+}
+footer{
+    height: 92px;
+    width: 1903px;
+    background-color: var(--footer-gray);
+}
