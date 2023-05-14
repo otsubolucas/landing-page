@@ -159,11 +159,14 @@ label{
     display: block;
     margin-bottom: 1rem;
 }
-input{
+#email{
     border: 2px solid black;
     box-shadow: 4px 4px 0 black;
     width: 272px;
     height: 48px;
     padding:.5rem;
     text-align: bottom;
+}
+.want{
+    margin: 1rem 0;
 }
