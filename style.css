@@ -13,6 +13,9 @@
     --orange: #ED4D1B;
     --yellow:#FF9A3C;
 }
+html{
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+}
 body{
     background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
     padding: 0 1rem;
