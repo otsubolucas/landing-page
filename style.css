@@ -172,4 +172,100 @@ label{
 }
 .want{
     margin: 1rem 0;
+    cursor: pointer;
+}
+@media screen and (min-width:640px){
+    .h-nav{
+        display: block;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .card-div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card:nth-child(2n){
+        margin-top: 1rem;
+    }
+    h2{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    footer img{
+        display: block;
+        margin: auto;
+    }
+    footer p{
+        text-align: center;
+    }
+    footer nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin:1rem auto;
+    }
+    footer nav a:nth-child(2n-1){
+        text-align: right;
+    }
+    #email{
+        width: 350px;
+    }
+}
+@media screen and (min-width:768px){
+    header{
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+}
+@media screen and (min-width:1200px){
+    .container{
+        margin: 0 2rem;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    h1{
+        text-align: inherit;
+    }
+    .hero-section p{
+        padding-top: 0;
+        width: 260px;
+    }
+    .hero-section div{
+        margin: auto;
+    }
+    footer img{
+        margin: 1rem;
+    }
+    footer{
+        display: flex;
+    }
+    footer div{
+        flex: 2;
+    }
+    footer nav{
+        flex:1;
+        display: flex;
+    }
+    footer nav a {
+        padding-bottom: 8px;
+        text-align: center;
+    }
+    footer nav a:nth-child(2n-1){
+        text-align: center;
+    }
+    form{
+        flex: 3;
+    }
+}
+@media screen and (min-width:1500px) {
+    h1,h2{
+        font-size: 4rem;
+    }
+
 }
